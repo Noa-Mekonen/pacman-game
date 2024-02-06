@@ -1,0 +1,58 @@
+body {
+  background-color: black;
+  color:white;
+  text-align: center;
+}
+
+.board-container {
+  margin: auto;
+}
+
+.cell {
+  font-size: 1.5em;
+  width: 2em;
+  height: 2em;
+}
+
+.modal{
+  border-radius: 10px;
+  width: 200px;
+  height: 50px;
+  background-color: rgb(242, 206, 206);
+  top: 200px;
+  left: 250px;
+  margin: 70px auto;
+  /* display: none; */
+  position: absolute
+  
+}
+
+.modal span{
+  color: black;
+  position: absolute;
+  left:55px;
+  display: none;
+}
+
+.modal .play-again{
+  position: absolute;
+  bottom: 2px;
+  left:55px;
+  
+}
+
+.hidden{
+  display: none;
+}
+
+/* .up {
+  transform: rotate(-0.25turn)
+}
+
+.down {
+  transform: rotate(90deg)
+}
+
+.left {
+  transform: scaleX(-1)
+} */
